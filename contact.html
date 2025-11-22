@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMG2T MAROC</title>
+    <link rel="icon" type="text/png" href="Images/RMG2T-favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Header and Navbar -->
+    <header>
+          <div class="logo">
+             <a href="index.html#accueil"><div class="logo-img"><img src="Images/RMG2T-no-back.png" alt="RMG2T logo"></div></a>
+          </div>
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#accueil">Accueil</a></li>
+                <li><a href="index.html#propos">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">    
+        <!-- Contact Title -->
+        <div class="contact-title">
+            <h1>Contactez-nous</h1>
+            <p>Prenez contact avec notre équipe pour toute demande ou information</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h4>Entrer en contact</h4>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="b937b05a-cfd7-42c1-972e-90429856807c">
+                <input type="text" name="nom et prénom" placeholder="Nom et Prénom" class="contact-inputs" required>
+                <input type="text" name="email" placeholder="Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Tapez votre message ici..."></textarea>
+                <button name="soumettre">Soumettre</button>
+            </form>
+            <div class="contact-right">
+                <img src="Contact/contact icon.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Contact-info -->
+    <section class="contactez-nous">
+
+        <div class="contact-info">
+            <p><i class="fa-solid fa-phone"></i>  06 61 93 50 63</p>
+            <p><i class="fa-solid fa-envelope"></i>  RMG2TMAROC@GMAIL.COM</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+       <p>Copyright © <span id="year"></span> RMG2T MAROC. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
